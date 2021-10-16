@@ -31,7 +31,7 @@ window.onload = function () {
 
     player.img.onload = function () {
         CTXb.drawImage(player.img, 0, 0);
-        let imageData = CTXb.getImageData(0, 0, 20, 32);
+        let imageData = CTXb.getImageData(20, 0, 20, 32);
         CTXs.putImageData(imageData, 0, 0);
     };
 };
